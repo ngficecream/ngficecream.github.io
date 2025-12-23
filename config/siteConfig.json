@@ -1,0 +1,250 @@
+{
+    "siteMetadata": {
+        "title": "Naturals Ice Creams | Taste the Original",
+        "deliveryLinkSwiggy": "https://www.swiggy.com",
+        "deliveryLinkZomato": "https://www.zomato.com"
+    },
+    "navbar": {
+        "logo": "/config/img/logo.png",
+        "links": [
+            {
+                "label": "Home",
+                "path": "/"
+            },
+            {
+                "label": "Products",
+                "path": "/flavours"
+            },
+            {
+                "label": "Franchise Queries",
+                "path": "/franchise"
+            },
+            {
+                "label": "Store Locator",
+                "path": "/stores"
+            },
+            {
+                "label": "Our Trust",
+                "path": "/about"
+            },
+            {
+                "label": "Contact",
+                "path": "/contact"
+            }
+        ],
+        "cta": {
+            "label": "Order Now",
+            "url": "https://www.swiggy.com"
+        }
+    },
+    "home": {
+        "banners": [
+            "/config/img/banner/banner.jpeg",
+            "/config/img/banner/banner2.jpeg",
+            "/config/img/banner/banner3.jpg",
+            "/config/img/banner/banner4.jpg"
+        ],
+        "hero": {
+            "title": "Scoops of Nature and Taste",
+            "text": "Indulge in creamy delights crafted from pure,<br />natural ingredients—each bite bursting with authentic Gujarati flavors and the freshness of real fruit.<br />Our ice cream brings together tradition and taste, creating moments of pure happiness.<br /><br />हर स्कूप में मिलेगा प्रकृति की ताजगी और असली स्वाद का अहसास—गुजराती परम्परा और प्राकृतिक मिठास का अनोखा संगम।"
+        },
+        "bestSellers": [
+            {
+                "img": "kesar.jpeg",
+                "label": "Kesar Ice Cream"
+            },
+            {
+                "img": "Sitaphal.jpeg",
+                "label": "Sitaphal Ice Cream"
+            },
+            {
+                "img": "strawberry.jpeg",
+                "label": "Strawberry Ice Cream"
+            },
+            {
+                "img": "rose.jpeg",
+                "label": "Rose Ice Cream"
+            },
+            {
+                "img": "orange.jpg",
+                "label": "Orange Ice Cream"
+            },
+            {
+                "img": "jamun.jpeg",
+                "label": "Jamun Ice Cream"
+            },
+            {
+                "img": "guava.jpeg",
+                "label": "Guava Ice Cream"
+            },
+            {
+                "img": "choclate.jpeg",
+                "label": "Chocolate Ice Cream"
+            },
+            {
+                "img": "cashew.jpeg",
+                "label": "Cashew Ice Cream"
+            }
+        ],
+        "instagramEmbeds": [
+            "https://www.instagram.com/p/DMD4xRYS5J5/",
+            "https://www.instagram.com/p/C_q8u2VSH5L/",
+            "https://www.instagram.com/p/DAWk_3sy8_M/",
+            "https://www.instagram.com/p/DMNC6eaRMRy/"
+        ]
+    },
+    "flavours": {
+        "title": "OUR PRODUCTS",
+        "categories": [
+            {
+                "id": "regular",
+                "label": "Regular",
+                "products": [
+                    {
+                        "img": "kesar.jpeg",
+                        "label": "Kesar Ilichi",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "kesar2.jpeg",
+                        "label": "Kesar2 Ilichi",
+                        "rate": "₹200"
+                    },
+                    {
+                        "img": "cashew.jpeg",
+                        "label": "Kaju Malai",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "choclate.jpeg",
+                        "label": "Chocolate",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "rose.jpeg",
+                        "label": "Rose",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "paan.jpg",
+                        "label": "Paan",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "rajbhog.jpg",
+                        "label": "Rajbhog",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "anjeer.jpg",
+                        "label": "Anjeer",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "thandai.jpg",
+                        "label": "Thandai",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "chikoo.jpg",
+                        "label": "Chikoo",
+                        "rate": "₹30"
+                    }
+                ]
+            },
+            {
+                "id": "monsoon",
+                "label": "Seasonal (Monsoon)",
+                "products": [
+                    {
+                        "img": "ginger-cardamom.jpg",
+                        "label": "Ginger Cardamom",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "tulsi-black-pepper.jpg",
+                        "label": "Tulsi Black Pepper",
+                        "rate": "₹20"
+                    },
+                    {
+                        "img": "coconut.jpg",
+                        "label": "Coconut",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "jamun.jpeg",
+                        "label": "Jamun",
+                        "rate": "₹30"
+                    }
+                ]
+            },
+            {
+                "id": "seasonal",
+                "label": "Seasonal (Winter)",
+                "products": [
+                    {
+                        "img": "Sitaphal.jpeg",
+                        "label": "Sitafal",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "pineapple.jpg",
+                        "label": "Pineapple",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "orange.jpg",
+                        "label": "Orange",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "strawberry.jpeg",
+                        "label": "Strawberry",
+                        "rate": "₹30"
+                    },
+                    {
+                        "img": "guava.jpeg",
+                        "label": "Guava",
+                        "rate": "₹30"
+                    }
+                ]
+            }
+        ]
+    },
+    "franchise": {
+        "formLink": "https://docs.google.com/forms/d/e/1FAIpQLSdXEXAMPLEFORMLINK/viewform?embedded=true"
+    },
+    "contact": {
+        "phone": "9649645456",
+        "email": "Ngicecreamsales@gmail.com",
+        "address": "Natural Gujrati Ice Creams,<br />25°10'35.4\"N 75°55'16.0\"E,<br />Kota, Rajasthan 324005, India",
+        "googleMapsLink": "https://goo.gl/maps/your_store_location"
+    },
+    "stores": {
+        "mapEmbedUrl": "https://www.google.com/maps?q=25.1765,75.9211&z=16&output=embed",
+        "address": "Natural Gujrati Ice Creams,<br />Vaidhnath Apartment Gate no-2 Coral Park Naya Nohra Kota Rajasthan, 324001",
+        "googleMapsLink": "https://goo.gl/maps/your_store_location"
+    },
+    "about": {
+        "title": "Our Trust | In My Words",
+        "subtitle": "Crafted with Care. Rooted in Tradition. Shared with Love.",
+        "paragraphs": [
+            "Namaste, I am <strong>Mrs. Sonia Soni</strong>, founder of Natural Gujrati Ice Creams.",
+            "My journey began in Ahmedabad, Gujarat, where I found joy in nurturing my family and creating small moments of happiness at home. Every evening, watching my husband walk to enjoy his favorite kulfi became a loving ritual—a symbol of togetherness and joy for our family.",
+            "When we moved to Kota in 2019, I noticed how much my husband missed those authentic Gujrati fruit kulfis from back home. Determined to bring that taste and tradition into our new life, I started experimenting in my own kitchen with milk, fresh fruits, and timeless family recipes.",
+            "The first time I made kulfi in Kota and saw the sparkle in my husband's eyes, I knew I had recreated more than just a dessert—I had brought a piece of home back to us. Soon, I began sharing my homemade kulfi with friends and neighbors. Their smiles, appreciation, and requests inspired me tremendously.",
+            "Word spread, and our kitchen soon turned into a small hub of fruit-filled joy and tradition. As I created more and more flavors—each inspired by Gujarati heritage and the bounty of Rajasthan—the dream grew stronger.",
+            "Alongside my family, I decided to transform this happiness into a brand that could share our values and love for pure, honest ice cream with everyone. In 2023, <strong>Natural Gujrati Ice Creams</strong> was born. Today, every scoop reflects not just authentic ingredients, but my own story, my family's warmth, and my promise to serve only the best—made with heart, by hand, every single day."
+        ],
+        "quote": "True happiness is simple: real fruit, honest ingredients, and a whole lot of love in every batch.",
+        "author": "Mrs. Sonia Soni"
+    },
+    "footer": {
+        "about": "Natural Gujrati Ice Creams<br />Since 2023 &middot; Taste the Original<br />Handcrafted in Kota, delivering scoops of nature and taste in India since 2023.",
+        "socials": {
+            "instagram": "https://www.instagram.com/ngficecream?igsh=NDZkaWhvbTMwdWhk",
+            "facebook": "https://m.facebook.com/678769815322129/",
+            "whatsapp": "https://wa.me/919649645456"
+        }
+    }
+}
