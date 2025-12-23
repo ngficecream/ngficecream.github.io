@@ -1,35 +1,62 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  body {
-    @apply font-sans text-gray-900 antialiased;
-  }
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Poppins', sans-serif;
   
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
-  }
+  --color-primary-50: #fff8f0;
+  --color-primary-100: #ffefd9;
+  --color-primary-200: #ffddb3;
+  --color-primary-300: #ffc688;
+  --color-primary-400: #ffa857;
+  --color-primary-500: #ff8a2b;
+  --color-primary-600: #f06d1a;
+  --color-primary-700: #d65514;
+  --color-primary-800: #b84515;
+  --color-primary-900: #963915;
+  
+  --color-accent-50: #f0fdf9;
+  --color-accent-100: #ccfbef;
+  --color-accent-200: #9af6e1;
+  --color-accent-300: #5feacd;
+  --color-accent-400: #2dd4b4;
+  --color-accent-500: #14b89a;
+  --color-accent-600: #0c947e;
+  --color-accent-700: #0d7566;
+  --color-accent-800: #0f5d52;
+  --color-accent-900: #124d44;
+  
+  --animate-fade-in: fadeIn 0.5s ease-in;
+  --animate-slide-up: slideUp 0.5s ease-out;
+  --animate-slide-down: slideDown 0.5s ease-out;
+  --animate-scale-in: scaleIn 0.3s ease-out;
+  --animate-float: float 3s ease-in-out infinite;
 }
 
-@layer components {
-  .btn-primary {
-    @apply px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
-  }
-  
-  .btn-secondary {
-    @apply px-6 py-3 bg-white text-primary-600 font-semibold rounded-lg border-2 border-primary-600 hover:bg-primary-50 transition-all duration-300;
-  }
-  
-  .card-hover {
-    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
-  }
-  
-  .glass-effect {
-    @apply bg-white/80 backdrop-blur-md;
-  }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideDown {
+  0% { transform: translateY(-20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
 /* Custom scrollbar */
@@ -53,4 +80,14 @@
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
 }
