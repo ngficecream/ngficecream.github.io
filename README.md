@@ -1,30 +1,5 @@
 # NG Ice Cream Website
 
-A modern, configurable website for NG Ice Cream. All content can be easily updated through a simple configuration file - **no coding required!**
-
-## 🚀 Quick Start (For Beginners)
-
-### 1. Install Dependencies
-
-First time setup:
-```bash
-npm install
-```
-
-### 2. Run the Website Locally
-
-```bash
-npm run dev
-```
-
-Then open your browser to `http://localhost:5173`
-
-### 3. Make Changes
-
-Edit the config file at `config/siteConfig.json` to update your website content. The changes will appear automatically in your browser!
-
----
-
 ## 📝 How to Update Your Website Content
 
 ### Understanding the Config File
